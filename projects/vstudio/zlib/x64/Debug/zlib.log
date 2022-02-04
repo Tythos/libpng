@@ -70,12 +70,12 @@ C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(971): message : feeds call 
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(819): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(818): message : index 'max_blindex' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(819): message : feeds memory load on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(849): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(847): message : index 'rank' range checked by comparison on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(849): message : feeds memory load on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(658): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(658): message : index 'n' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(658): message : feeds call on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(849): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(847): message : index 'rank' range checked by comparison on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(849): message : feeds memory load on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(597): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(596): message : index 'n' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\trees.c(600): message : feeds call on this line
@@ -190,30 +190,30 @@ C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\infback.c(380): message : feeds mem
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\infback.c(309): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\infback.c(299): message : index 'bits' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\infback.c(309): message : feeds call on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1754): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1741): message : index 'used' range checked by comparison on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1754): message : feeds call on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1867): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1867): message : index '' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1867): message : feeds memory load on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1861): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1856): message : index '' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1861): message : feeds call on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1992): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1992): message : index '' range checked by comparison on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1992): message : feeds memory load on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1592): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1584): message : index '' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1592): message : feeds call on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1967): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1961): message : index '' range checked by comparison on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1967): message : feeds call on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1581): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1574): message : index 'curr' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1581): message : feeds call on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1512): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1510): message : index '' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1512): message : feeds call on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1992): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1992): message : index '' range checked by comparison on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1992): message : feeds memory load on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1967): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1961): message : index '' range checked by comparison on this line
-C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1967): message : feeds call on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1754): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1741): message : index 'used' range checked by comparison on this line
+C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1754): message : feeds call on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1375): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1375): message : index 'best_len' range checked by comparison on this line
 C:\Users\Brian Kirkpatrick\Projects\SDL\zlib\deflate.c(1375): message : feeds call on this line
